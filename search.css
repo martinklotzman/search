@@ -108,11 +108,3 @@
     font-size: 18px; 
     font-family: Arial, sans-serif;
 }
-
-.form-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    width: 100%;
-    max-width: 400px; /* Adjust the max-width as needed */
-}
