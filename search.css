@@ -1,0 +1,51 @@
+.primary-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+}
+
+.nav-bar {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 20px;
+}
+
+.nav-bar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-bar li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.nav-bar li:first-child {
+    margin-left: 0;
+}
+
+.search form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.search input[type="submit"] {
+    margin-top: 10px;
+}
+
+.search input[type="text"] {
+    margin-top: 10px;
+    width: 200%;
+}
+
+.logo {
+    max-width: 500px;
+    height: auto;
+    
+}
