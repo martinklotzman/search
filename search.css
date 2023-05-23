@@ -7,6 +7,11 @@
     font-family: arial,sans-serif;
 }
 
+.button-container {
+    display: flex;
+    justify-content: space-between;
+}
+
 .nav-bar {
     position: absolute;
     top: 0;
@@ -102,4 +107,12 @@
     padding-left: 10px;
     font-size: 18px; 
     font-family: Arial, sans-serif;
+}
+
+.form-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 400px; /* Adjust the max-width as needed */
 }
